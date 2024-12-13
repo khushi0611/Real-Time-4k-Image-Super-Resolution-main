@@ -1,0 +1,5 @@
+loss_weights = {
+  'generator': 1.0,
+  'feature_extractor': 0.0,
+  'discriminator': 0.00
+}

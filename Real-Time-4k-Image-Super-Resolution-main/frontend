@@ -1,0 +1,52 @@
+import React from 'react';
+import './App.css';
+
+function App() {
+ return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Qadify</h1>
+        <h2>AI Enhanced Photo & Video</h2>
+        <h3>Your ultimate solution for digital enhancement</h3>
+      </header>
+
+      <main>
+        <section className="Features">
+          <h2>Features</h2>
+          <ul>
+            <li>
+              <strong>Portrait Enhancement:</strong> Boosts low-quality portrait
+              photos to a stunning HD level.
+            </li>
+            <li>
+              <strong>Landscape Enhancement:</strong> Improves old landscape
+              photos, bringing out hidden details and improving color
+              accuracy.
+            </li>
+            <li>
+              <strong>One-Click Editing:</strong> Use Quadify's cutting-edge AI
+              technology to instantly enhance your visuals.
+            </li>
+          </ul>
+        </section>
+
+        <section className="Demo">
+          <h2>Product Demo</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </main>
+
+      <footer className="App-footer">
+       </footer>
+    </div>
+ );
+}
+
+export default App;
